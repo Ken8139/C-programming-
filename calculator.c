@@ -10,18 +10,22 @@ int main() {
     case'+':
         res=a+b;
         printf("\n%d+%d=%d",a,b,res);
+        break;
     case'-':
         res=a-b;
+        printf("\n%d-%d=%d",a,b,res);
         break;
-         printf("\n%d-%d=%d",a,b,res);
+         
     case'*':
         res=a*b;
-        break;
          printf("\n%d*%d=%d",a,b,res);
+        break;
+        
     case'/':
         res=a/b;
+        printf("\n%d/%d=%d",a,b,res);
         break;
-         printf("\n%d/%d=%d",a,b,res);
+         
     case'%':
          printf("\n%d %% %d=%d",a,b,a%b);
          break;
