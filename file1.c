@@ -12,7 +12,7 @@ int main(){
       if(ch==' '){
        word+=1;
       }
-      if(ch=='.'){
+      if(ch=='\n'){
        line+=1;
       }
       character+=1;
