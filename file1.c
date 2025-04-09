@@ -17,9 +17,9 @@ int main(){
       }
       character+=1;
   }
-  printf("Word count=%d",word+1);
-  printf("line count=%d",line);
-  printf("character count=%d\n",character-1);
+  printf("\nWord count=%d",word+1);
+  printf("\nline count=%d",line);
+  printf("\ncharacter count=%d\n",character-1);
   fclose(fp);
   return 0;
 }
