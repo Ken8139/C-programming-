@@ -6,7 +6,7 @@ int calculate_sum(int array[],int size){
   }
   return sum;
 }
-void main() {
+int main() {
   int n,i;
   printf("Enter the number of Element in the array");
   scanf("%d",&n);
@@ -17,4 +17,5 @@ void main() {
   }
   int total_sum=calculate_sum(numbers,n);
   printf("sum of array element:%d\n",total_sum);
+  return 0;
 }
