@@ -1,11 +1,11 @@
-/*Autor:Kenaz mathukutty
+/*Author:Kenaz mathukutty
   Created:07/02/2025
   Two matrix addition */
 
 #include<stdio.h>
  int main() {
    int row,col;
-   printf("\n Enter the row and colum:");
+   printf("\n Enter the row and column:");
    scanf("%d%d",&row,&col);
    int m1[row][col],m2[row][col],m3[row][col];
    printf("\n Enter the first matrix:\n");

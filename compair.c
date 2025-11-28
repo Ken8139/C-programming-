@@ -6,8 +6,8 @@ int main() {
   scanf("%s",string1);
   printf("\n Enter the second string:");
   scanf("%s",string2);
-  int compair=strcmp(string1,string2);
-  if (compair==0){
+  int compare=strcmp(string1,string2);
+  if (compare==0){
     printf("\n Equal string");
   }else{
      printf("\n String is not equal");
