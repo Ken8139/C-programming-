@@ -1,6 +1,6 @@
  /*
 AUTHOR:KENAZ MATHUKUTTY
-CERATED:26/03/2025
+CREATED:26/03/2025
 AIM:Power of a Number Using Recursion: Write a program to calculate the power of a number using recursion. The base and exponent should be taken as input from the user.*/
 #include<stdio.h>
 int power(int num1,int num2);
